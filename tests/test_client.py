@@ -162,7 +162,7 @@ def test_wait_for_transaction_times_out_with_the_latest_state():
 
 def test_balance_and_payment_link_and_attribute_access():
     client, st = make_client(script={"/balance/": [(200, {"total_balance": 4875, "mtn_balance": None, "orange_balance": None, "held_balance": 0, "currency": "XAF"})],
-                                     "/get_payment_link/": [(200, {"link": "http://paysawa.test/pay/cs_1", "reference": "cs_1"})]})
+                                     "/get_payment_link/": [(200, {"link": "https://paysawa.onrender.com/pay/cs_1", "reference": "cs_1"})]})
     assert client.get_balance().total_balance == 4875
     link = client.get_payment_link(2000, "Order", "order-1", "https://shop.example.com/thanks")
     assert link.link.endswith("/pay/cs_1") and link["reference"] == "cs_1"
