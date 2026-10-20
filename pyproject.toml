@@ -30,9 +30,9 @@ dependencies = ["httpx>=0.25", "PyJWT>=2.4"]
 dev = ["pytest>=8", "pytest-asyncio>=0.23", "build>=1.0", "twine>=5.0"]
 
 [project.urls]
-Homepage = "https://github.com/YOUR-GITHUB-USER/paysawa-python"
-Issues = "https://github.com/YOUR-GITHUB-USER/paysawa-python/issues"
-Changelog = "https://github.com/YOUR-GITHUB-USER/paysawa-python/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/ChrinaerDev/paysawa-python"
+Issues = "https://github.com/ChrinaerDev/paysawa-python/issues"
+Changelog = "https://github.com/ChrinaerDev/paysawa-python/blob/main/CHANGELOG.md"
 
 [tool.setuptools.dynamic]
 version = {attr = "paysawa._version.__version__"}
