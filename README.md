@@ -29,7 +29,7 @@ client = Client(
     app_username="pa_xxxxxxxxxxxxxxxx",
     app_password="your-app-password",
     webhook_key="whk_xxxxxxxx",
-    base_url="https://paysawa.onrender.com/api/",   # or set PAYSAWA_BASE_URL
+    base_url="https://paysawa.onrender.com",   # or set PAYSAWA_BASE_URL
 )
 
 # Ask a customer to pay: they get a prompt on their phone and approve with their PIN.
