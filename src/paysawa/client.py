@@ -1,4 +1,4 @@
-"""Paysawa clients (synchronous `Client` and asynchronous `AsyncClient`).
+"""Paysawa clients (synchronous `Client` and asynchronous `AsyncClient`) for the apps API.
 
     from paysawa import Client
 
@@ -21,7 +21,7 @@ from .models import Result, Transaction, WebhookEvent
 from .webhooks import verify_webhook
 
 # Change this one line once Paysawa is hosted, or set PAYSAWA_BASE_URL, or pass base_url= to the client.
-DEFAULT_BASE_URL = "https://paysawa.onrender.com/api/"
+DEFAULT_BASE_URL = "http://localhost:8000/api/"
 
 _sleep = time.sleep           # indirections so tests can run instantly
 _monotonic = time.monotonic

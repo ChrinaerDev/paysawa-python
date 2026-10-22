@@ -2,7 +2,7 @@
 
 Python SDK for the **Paysawa** mobile money gateway (MTN Mobile Money and Orange Money, XAF).
 Collect payments, send money, create payment links and verify signed webhooks with a few lines of code.
-It speaks Paysawa's Campay-style API, so the concepts are the same as Campay's.
+You authenticate with an **app** (username, password and webhook key) and call Paysawa's apps API.
 
 ```bash
 pip install paysawa

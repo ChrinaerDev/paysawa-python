@@ -5,12 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "paysawa"
 dynamic = ["version"]
-description = "Python SDK for the Paysawa mobile money gateway (MTN / Orange): collect, withdraw, payment links and signed webhooks."
+description = "Python SDK for Paysawa, the mobile money gateway (MTN / Orange): collect, withdraw, payment links and signed webhooks."
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [{name = "Paysawa"}]
-keywords = ["paysawa", "mobile money", "payments", "cameroon", "mtn", "orange money", "campay", "xaf"]
+keywords = ["paysawa", "mobile money", "payments", "cameroon", "mtn", "orange money", "xaf"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -30,9 +30,9 @@ dependencies = ["httpx>=0.25", "PyJWT>=2.4"]
 dev = ["pytest>=8", "pytest-asyncio>=0.23", "build>=1.0", "twine>=5.0"]
 
 [project.urls]
-Homepage = "https://github.com/ChrinaerDev/paysawa-python"
-Issues = "https://github.com/ChrinaerDev/paysawa-python/issues"
-Changelog = "https://github.com/ChrinaerDev/paysawa-python/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/YOUR-GITHUB-USER/paysawa-python"
+Issues = "https://github.com/YOUR-GITHUB-USER/paysawa-python/issues"
+Changelog = "https://github.com/YOUR-GITHUB-USER/paysawa-python/blob/main/CHANGELOG.md"
 
 [tool.setuptools.dynamic]
 version = {attr = "paysawa._version.__version__"}
